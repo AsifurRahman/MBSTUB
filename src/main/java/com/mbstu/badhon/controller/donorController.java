@@ -13,7 +13,6 @@ import java.util.List;
 
 @Controller
 public class donorController {
-
     @Autowired
     private DonorRepository donorRepository;
 
@@ -59,4 +58,15 @@ public class donorController {
         model.addAttribute("donorList",donorList);
         return "donorList";
     }
+
+    @RequestMapping(value = "/bdonorList", method = RequestMethod.GET)
+    public String BdonorListView(Model model,@RequestParam(value = "sbgroup") String sbgroup){
+        System.out.println("-----------bdonorListView-------------");
+        System.out.println(sbgroup);
+        List<Donor> bdonorList=donorRepository.getDonorBybgroup(sbgroup);
+        System.out.println(bdonorList);
+        model.addAttribute("bdonorList",bdonorList);
+        return "bdonorList";
+    }
+
 }

@@ -49,14 +49,14 @@
                                 <div class="form-group">
                                     <label>Blood Group*</label>
                                     <form:select  id="bloodgroup" path="bgroup" Class="form-control" required="true">
-                                        <option value="A+(A Positive)">A+(Positive)</option>
-                                        <option value="B+(B Positive)">B+(Positive)</option>
-                                        <option value="O+(O Positive)">O+(Positive)</option>
-                                        <option value="AB+(AB Positive)">AB+(Positive)</option>
-                                        <option value="A-(A Negative)">A-(Negative)</option>
-                                        <option value="B-(B Negative)">B-(Negative)</option>
-                                        <option value="O-(O Negative)">O-(Negative)</option>
-                                        <option value="AB-(AB Negative)">AB-(Negative)</option>
+                                        <option value="A+(Positive)">A+(Positive)</option>
+                                        <option value="B+(Positive)">B+(Positive)</option>
+                                        <option value="O+(Positive)">O+(Positive)</option>
+                                        <option value="AB+(Positive)">AB+(Positive)</option>
+                                        <option value="A-(Negative)">A-(Negative)</option>
+                                        <option value="B-(Negative)">B-(Negative)</option>
+                                        <option value="O-(Negative)">O-(Negative)</option>
+                                        <option value="AB-(Negative)">AB-(Negative)</option>
                                     </form:select>
                                 </div>
 

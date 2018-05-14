@@ -13,7 +13,7 @@
 
         .bg {
             /* The image used */
-            background-image: url("/img/bg.jpg");
+            background-image: url("/img/bg-masthead.jpg");
 
             /* Full height */
             height: 100%;
@@ -30,7 +30,9 @@
 <body class="bg">
 <div class="register-box">
     <div class="register-logo">
-        <a href="../../index2.html" style="color: #fafafa"><b style="color: aliceblue">BBMS </b>MBSTU</a>
+        <h1 style="color:floralwhite">Badhon MBSTU</h1>
+        <a href="/login" class="btn btn-info"> Back to Home Page</a>
+
     </div>
     <div class="register-box-body">
         <p class="login-box-msg"><strong>Register a new Account</strong></p>
@@ -70,6 +72,49 @@
     </div>
     <!-- /.form-box -->
 </div>
+
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                <h3><p style="color:aqua" class="text-muted small mb-4 mb-lg-0">
+                    &copy; AR_ASIF 2018. All Rights Reserved.</p></h3>
+            </div>
+            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="fa fa-facebook fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="fa fa-twitter fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-instagram fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- /.register-box -->
 <script>
     $(function () {

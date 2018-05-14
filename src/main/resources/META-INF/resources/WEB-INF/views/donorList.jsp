@@ -42,7 +42,10 @@
                                                 <th>Name</th>
                                                 <th>B-Group</th>
                                                 <th>Department</th>
-                                                <th>Contact</th>
+                                                <security:authorize access="hasAnyRole('ROLE_ADMIN')">
+                                                    <th>Contact</th>
+                                                </security:authorize>
+
                                                 <%--<th>Email</th>--%>
                                                 <th>District</th>
                                                 <th>Donation</th>
@@ -56,7 +59,10 @@
                                                     <td>${dnr.name}</td>
                                                     <td>${dnr.bgroup}</td>
                                                     <td>${dnr.dept}</td>
-                                                    <td>${dnr.phone}</td>
+                                                    <security:authorize access="hasAnyRole('ROLE_ADMIN')">
+                                                        <td>${dnr.phone}</td>
+                                                    </security:authorize>
+
                                                     <%--<td>${dnr.email}</td>--%>
                                                     <td>${dnr.district}</td>
                                                     <td>${dnr.dtime}</td>
